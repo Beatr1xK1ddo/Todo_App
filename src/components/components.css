@@ -1,0 +1,70 @@
+.todo__List-item {
+  position: relative;
+  padding-right: 35px;
+}
+
+.form {
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.icons {
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  margin-top: -8px;
+}
+
+.title {
+  font-weight: 800;
+  margin: 20px 0;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.searchTerm {
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 70%;
+  display: inline-block;
+  padding: 10px;
+  border: 3px solid #00b4cc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  vertical-align: top;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 0 5px 5px 0;
+  padding: 6px 14px;
+  border: 3px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.mrg {
+    margin-top: 20px;
+}
+
+.secelt {
+  padding: 10px 20px;
+  border: 3px solid #00b4cc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
